@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* main section start */
+main {
+    margin: 50px 130px 0px 130px;
+}
+
+/* banner section start */
+
+.banner-section {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Banner\ Image.png) no-repeat center;
+    background-size: cover;
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+}
+
+.banner-text h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+
+}
+
+.banner-text h1 {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.banner-text h2 {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* percentage off section start */
+
+.percent-off-section {
+    margin: 120px 0px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.percent-header {
+    color: #F00;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.percent-description {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.percent-categories {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+/* welcome-to-party-section start */
+
+.welcome-to-party-section {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png) no-repeat center;
+    background-size: cover;
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    gap: 35px;
+}
+
+.party-textbox {
+    width: 60%;
+    font-family: 'Merriweather', serif;
+    margin-top: 126px;
+    margin-left: 126px;
+}
+
+.party-header {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 26px;
+}
+
+.party-description {
+    color: #ffffffaf;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.party-join-btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.party-imagebox {
+    width: 30%;
+    margin-top: 40px;
+}
+
+/* event detail section */
+
+.event-detail-section {
+    width: 1300px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-detail-info {
+    text-align: center;
+}
+
+.event-info {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.place-date {
+    color: #F00;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.event-btn {
+    padding: 16px 32px;
+    border: none;
+    background: #F00;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* upcoming offers section */
+
+.upcoming-offer-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+    gap: 50px;
+    font-family: 'Inter', sans-serif;
+}
+
+.offer-text-left {
+    width: 30%;
+}
+
+.offer-left-header {
+    color: #F00;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-left-commingSoon {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.offer-left-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.upcoming-offer-img {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 420px;
+    border: 10px solid #F00;
+    border-radius: 500px;
+}
+
+.upcoming-offer-img img {
+    width: 345px;
+    height: 345px;
+    transition: all 0.3s ease;
+}
+
+.upcoming-offer-img img:hover {
+    transform: scale(1.06);
+}
+
+.offer-text-right {
+    width: 20%;
+}
+
+.offer-right-header {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.offer-right-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+/* holiday sale section */
+
+.holiday-sale-section {
+    background-image: url(resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 120px auto;
+    width: 1300px;
+    height: 1000px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.holiday-sale-header {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.holiday-sale-offer {
+    color: #F00;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.holiday-sale-offer-span {
+    color: #070211;
+}
+
+.holiday-sale-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.holiday-sale-images {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 254px;
+}
+
+
+.holiday-image3 {
+    margin: -110px -396px;
+}
+
+.holiday-image2 {
+    margin: -48px -191px;
+}
+
+.portfolio-section {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.portfolio-text-header {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 16px;
+}
+
+.portfolio-text-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 22px;
+}
+
+.portfolio-text-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 50px;
+}
+
+.portfolio-imagebox1 {
+    margin-bottom: 20px;
+}
+
+.portfolio-imagebox1 img,
+.portfolio-imagebox2 img {
+    margin-right: 20px;
+    width: 400px;
+    height: 451px;
+    transition: all 0.3s ease;
+}
+
+.portfolio-imagebox1 img:hover,
+.portfolio-imagebox2 img:hover {
+    transform: scale(1.033);
+}
+
+/* subscribe section start */
+
+.subscribe-section {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px auto;
+    width: 1300px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.subscribe-text {
+    text-align: center;
+}
+
+.sub-header {
+    margin: 40px 0px 20px 0px;
+    font-family: 'Merriweather', serif;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sub-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.form input[type="email"] {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    padding: 18px 22px;
+    border: none;
+    outline: none;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.form .sub-btn {
+    padding: 16px 22px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    outline: none;
+    background: #F00;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* footer start */
+
+footer {
+    background: #070211;
+    padding: 120px 140px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-contact {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.social-icon{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.social-icon img{
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.copyright{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
