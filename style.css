@@ -220,7 +220,7 @@ main {
 }
 
 .upcoming-offer-img img:hover {
-    transform: scale(1.06);
+    transform: scale(1.03);
 }
 
 .offer-text-right {
@@ -453,6 +453,11 @@ footer {
 .social-icon img{
     margin: 0px 20px;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.social-icon img:hover{
+    transform: scale(1.05);
 }
 
 .copyright{
