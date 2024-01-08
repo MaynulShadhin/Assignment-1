@@ -296,6 +296,8 @@ main {
     margin: -48px -191px;
 }
 
+/* portfolio section start */
+
 .portfolio-section {
     margin: 0 auto;
     width: 1300px;
@@ -332,8 +334,8 @@ main {
 .portfolio-imagebox1 img,
 .portfolio-imagebox2 img {
     margin-right: 20px;
-    width: 400px;
-    height: 451px;
+    width: 410px;
+    height: 437px;
     transition: all 0.3s ease;
 }
 
