@@ -418,6 +418,31 @@ footer {
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
+.call-link{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+
+.link{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.call-link img{
+    margin-right: 10px;
+}
+
 .social-icon{
     text-align: center;
     margin-top: 50px;
@@ -436,4 +461,10 @@ footer {
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
+}
+
+.copyright .unsubscribe{
+    cursor: pointer;
+    color: #FFF;
+    text-decoration: none;
 }
