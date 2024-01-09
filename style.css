@@ -244,9 +244,6 @@ main {
 /* holiday sale section */
 
 .holiday-sale-section {
-    background-image: url(resources/Rectangle\ 2.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
     margin: 120px auto;
     width: 1300px;
     height: 1000px;
@@ -280,20 +277,31 @@ main {
     margin-bottom: 70px;
 }
 
-.holiday-sale-images {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 254px;
+.holiday-sale-images{
+    position: relative;
+    bottom: 200px;
 }
 
-
-.holiday-image3 {
-    margin: -110px -396px;
+.imagebox1{
+    position: relative;
 }
 
-.holiday-image2 {
-    margin: -48px -191px;
+.imagebox1 img:nth-child(1){
+    position: relative;
+    top: 220px;
+    right: 250px;
+}
+
+.imagebox2{
+    position: relative;
+    bottom: 666px;
+    left: 300px;
+}
+
+.imagebox2 img:nth-child(1){
+    position: relative;
+    left: 150px;
+    bottom: 45px;
 }
 
 /* portfolio section start */
